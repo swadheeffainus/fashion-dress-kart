@@ -279,3 +279,92 @@ img
     color: grey;
 }
 
+
+.popular-products
+{
+    padding: 50px;
+    margin-bottom: 120px;
+    background: #fbf9f9;
+}
+
+.popular-products-box .popular-products-title
+{
+    margin: 60px 0;
+}
+
+.popular-products-box .popular-products-title h2
+{
+    text-align: center;
+}
+
+.popular-products-items
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.popular-products-items .popular-products-item
+{
+    padding: 20px;
+    margin: 90px 60px;
+    height: 300px;
+}
+
+.popular-products-items .popular-products-item .popular-products-image img
+{
+    height: 250px;
+}
+
+.popular-products-items .popular-products-item .popular-products-body
+{
+    margin-top: 15px;
+}
+
+.popular-products-items .popular-products-item .popular-products-body h4
+{
+    font-weight: 400;
+    margin-bottom: 5px;
+    color: grey;
+}
+
+.popular-products-items .popular-products-item .popular-products-body .price label
+{
+    font-size: 15px;
+}
+
+.popular-products-items .popular-products-item .popular-products-body .price label.sale
+{
+    display: inline-block;
+    margin: 10px;
+    text-decoration: line-through;
+    color: grey;
+}
+
+.popular-products-box .popular-products-btm
+{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.popular-products-box .popular-products-btm button
+{
+    display: inline-block;
+    padding: 12px 25px;
+    background: #dbcfcf;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    color: black;
+    cursor: pointer;
+    transition: 2s all ease-in;
+    letter-spacing: 1px;
+}
+
+.popular-products-box .popular-products-btm button:hover
+{
+    background-image: #fbdcdc;
+}
+
+
