@@ -367,4 +367,49 @@ img
     background-image: #fbdcdc;
 }
 
+.discount-news-box
+{
+    display: flex;
+    width: 100%;
+    padding: 30px;
+    background: #f7e7e7;
+    margin: 20px 0;
+    justify-content: space-between;
+}
+
+.discount-news-box .discount-news-content
+{
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 59px;
+    font-size: 32px;
+}
+
+.discount-news-box .discount-news-content p
+{
+    margin: 30px 0 0 50px;
+}
+
+.discount-news-box .discount-news-content .time 
+{
+    margin: 60px 0 0 46px;
+    font-size: 30px;
+}
+
+.discount-news-box .discount-news-content .time label{
+    margin: 0 12px;
+}
+
+.discount-news-box .discount-news-content .time label span
+{
+    margin-left: 15px;
+}
+
+.discount-news-box .discount-news-image img
+{
+    width: 320px;
+    margin-right: 100px;
+    margin-top: 15px;
+}
+
 
